@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*corps*/
+.corps{
+    padding-top: 150px;
+}
+.corps .debut{
+    width: 100%;
+    background-image: url("../image/refugCCC.jpg");
+    height: 542px;
+    padding-top: 20px;
+}
+
+.corps .debut .text{
+    background: rgba(31, 31, 31, 0.4);
+    width: 75%;
+    margin-left:15%;
+    height: 500px;
+    border : 0.25px solid rgb(234, 217, 217);
+}
+.corps .debut .text h2{
+    margin-left :19%;
+    margin-top: 10%;
+    background: linear-gradient(to right, rgb(24, 213, 163),rgb(0, 255, 128)) ;
+    width: 400px;
+    color: #fff;
+    height: auto;
+    padding: 15px;
+    font-size: 40px;
+    text-align:center;
+}
+.corps .debut .text span{
+    margin-left :13%;
+    margin-top: 15px;
+    width: 550px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+.corps .mission{
+    background: linear-gradient(to right, rgb(24, 213, 163), rgb(0, 255, 128));
+    width: 98%;
+    color: #fff;
+    height: 300px;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.corps .mission p{
+    display: inline-block;
+    width: 74%;
+}
+.corps .don{
+    width: 100%;
+    background-image: url("../image/refugDDD.jpeg");
+    background-size: cover;
+    height: 700px;
+    padding-top: 5%;
+}
+.corps .don .tt{
+    margin-left: 15%;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid rgb(248, 242, 242);
+}
+.corps .don button{
+    position : relative; 
+    background: orange;
+    border-radius: 5px;
+    border:0.1px solid orange;
+    box-shadow: 0px 0px 12px orange;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.corps .don button a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 10px;
+}
+.corps .don p{
+    display: inline-block;
+    font-size: 27px;
+    color: #060505;
+    width: 500px;
+    margin-top: 13%;
+    margin-left: 50px;
+    background: rgba(204, 234, 236, 0.9);
+}

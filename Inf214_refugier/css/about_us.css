@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.corps{
+    padding-top: 150px;
+}
+.corps .first{
+    margin-top: 10px;
+    display:flex;
+    border: 0.5px solid rgb(98, 96, 96);
+    height: 400px;
+}
+.corps .first .tit{
+    width: 50%;
+    background: linear-gradient(to right, rgb(24, 213, 163), rgb(0, 255, 128));
+}
+.corps .first .im{
+    width: 50%;
+}
+.corps .first .im img{
+    width: 100%;
+    height: 400px;
+}
+.corps .first .tit h2{
+    position:absolute;
+    top: 40%;
+    left: 27%;
+    box-shadow: 0px 0px 12px black;
+    background: linear-gradient(to right, rgb(24, 213, 163), rgb(0, 255, 128));
+    width: 400px;
+    color: #fff;
+    height: auto;
+    padding: 15px;
+    font-size: 40px;
+    text-align:center;
+}
+.corps .second .p1{
+    margin-top: 30px;
+    margin-left: 10%;
+    display:inline-block;
+    width: 1000px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:blue;
+    font-size: 20px;
+}
+.corps .second p{
+    text-indent: 60px;
+    margin-top: 30px;
+    margin-left: 10%;
+    display:inline-block;
+    width: 1000px;
+    color: gray;
+    font-size: 20px;
+}
+.corps .second h2{
+    margin-top: 30px;
+    margin-left: 10%;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}

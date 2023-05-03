@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: #a2a6a6;
+    position: fixed;
+    width: 100%;
+}
+.header img{
+    width: 200px;
+    height: 150px;
+    background-attachment: fixed;
+}
+.header .menu{
+    position: absolute;
+    top: 10%;
+    left: 18%;
+    width: 79%;
+    background-attachment: fixed;
+}
+.header .menu ul{
+    display: flex;
+    background: aquamarine;
+    height: 70px;
+}
+.header .menu ul li {
+    list-style-type: none;
+    margin-left: 7%;
+    padding: 15px;
+}
+.header .menu ul li a{
+    color: #797777;
+    font-size: 17px;
+    text-decoration: none;
+}
+.header .menu ul .donner{
+    box-shadow: 0px 0px 12px black;
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/*footer*/
+.container{
+    max-width: 1170px; margin: auto;
+}
+.footer{
+    background: #566162; padding-top: 70px; 
+}
+.row{
+    display: flex; flex-wrap: wrap;
+}
+.footer-col{
+    width: 20%; padding: 0 15px;;
+}
+.footer-col h4{
+    font-size:18px; color:antiquewhite; margin-bottom: 35px; font-weight: 35px;  position:relative;
+}
+.footer-col h4::before{
+    content: ''; position: absolute; left:0%; bottom: -10px;
+    background: greenyellow; height: 2px; box-sizing: border-box; width: 70px;
+}
+.footer-col ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px; text-decoration: none; color:aquamarine; margin-bottom: 10px; display: block; transition: all 0.3s ease; 
+}
+.footer-col ul li a:hover{
+    color:#fff ; padding: 6px;
+}
+.footer-col img{
+    width:200px;
+    height: 200px;
+}
+.footer hr{
+    width: 90%;
+    justify-content: center;
+}
+.footer p{
+    text-align: center;
+    font-size: 23px;
+    margin: 10px;
+    color: aquamarine;
+}
