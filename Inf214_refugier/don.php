@@ -59,6 +59,16 @@
         </div>
         <hr />
         <p>copyright 2023</p>
+        <template id="dr">
+        <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+237 650-95-88-21">+237 650-95-88-21</a></li>
+                        <li><a href="tel:+237 699-99-01-02">+237 699-99-01-02</a></li>
+                        <li><a href="mailto:yannfoka4@gmail.com">yannfoka4@gmail.com</a></li>
+                    </ul>
+                </div>
+        </template>
     </div>
 </body>
 </html>
