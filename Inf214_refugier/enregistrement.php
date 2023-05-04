@@ -22,6 +22,8 @@
 
     <div class="corps">
        <p>un monde fou</p>
+       <p> une autre verification</p>
+       <p>et une troisième</p>
     </div>
 
 <div class="footer">
