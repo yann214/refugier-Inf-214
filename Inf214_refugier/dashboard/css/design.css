@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color : gray;
+}
+
+body
+{
+   
+}
+
+.corps form label{
+    display : inline-block;
+}
+.corps form input {
+    margin-left: 20px;
+    font-size: 19px;
+    color: gray;
+    background: transparent;
+    border-radius: 5px;
+    border : 0.5px solid gray;
+    width: 350px;
+    height: 40px;
+    margin-bottom:5px;
+}
+    .corps form input[type='radio'] {
+        width: 15px;
+        padding-top: 10px;
+    }
+.corps form input[name="nom"] {
+        margin-left: 43px;
+    }
+    .corps form input[type="submit"] {
+        width: 130px;
+        margin-top: 10px;
+        margin-left: 30%;
+
+    }
