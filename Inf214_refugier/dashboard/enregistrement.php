@@ -13,7 +13,7 @@
 <?php require_once"head.php"; ?>
 </div>
 
-<div class="corps" style="margin-left: 30%;">
+<div class="corps" style=" margin-left:30%;">
 	<h2> formulaire d'enregistrement </h2>
 	<form method="POST" action="">
 		<label for="nom">Nom :</label>

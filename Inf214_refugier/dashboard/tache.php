@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="css/design.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -10,6 +11,13 @@
 <div class="main">
 <?php require_once"head.php"; ?>
 </div>
+
+	<div class="corps" style=" margin-left:30%;">
+		<form method="POST" action="">
+			<h2> creation des taches </h2>
+		</form>
+	</div>
+
 <?php require_once"script.html"; ?>
 </body>
 </html>
