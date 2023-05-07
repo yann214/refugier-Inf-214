@@ -15,6 +15,10 @@
 	<div class="corps" style=" margin-left:30%;">
 		<form method="POST" action="">
 			<h2> enregistrement d'un soins apporter </h2>
+			<label for="nom">Soins : </label><input type="text" name="nom" ><br />
+			<label for="desp">description</label>
+			<textarea cols="65" rows="5" name="desp" style="margin-top:10px; background:transparent;" required></textarea><br />
+			<input type="submit" name="submit" value="enregistrer">
 		</form>
 	</div>
 <?php require_once"script.html"; ?>

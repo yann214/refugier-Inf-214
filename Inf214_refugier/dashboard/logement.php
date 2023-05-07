@@ -15,6 +15,8 @@
 	<div class="corps" style=" margin-left:30%;">
 		<form method="POST" action="">
 			<h2> ajout des logements </h2>
+			<label for="nom">Nom section : </label><input type="text" name="nom" >
+			<input type="submit"  name='submit' value="ajouter" >
 		</form>
 	</div>
 

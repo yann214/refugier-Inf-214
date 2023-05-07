@@ -17,24 +17,24 @@
 	<h2> formulaire d'enregistrement </h2>
 	<form method="POST" action="">
 		<label for="nom">Nom :</label>
-		<input type="text" name="nom"><br />
+		<input type="text" name="nom" required><br />
 
 		<label for="prenom">Prenom :</label>
-		<input type="text" name="prenom"><br />
+		<input type="text" name="prenom" required><br />
 
 		<label for="sexe"> sexe :</label>
-		<input type="radio" name="sexe" value="masculin"> <span>Masculin<span>
-		<input type="radio" name="sexe" value="feminin"> feminin <br />
+		<input type="radio" name="sexe" value="masculin" required> <span>Masculin<span>
+		<input type="radio" name="sexe" value="feminin" required> feminin <br />
 
 		<label for="type">categorie d'age </label><br />
-		<input type="radio" name="type" value="Enfants"> Enfants (00 &agrave 14 ans) <br />
-		<input type="radio" name="type" value="Adolescents">  Adolescents (15 &agrave 24 ans) <br />
-		<input type="radio" name="type" value="Adultes"> Adultes (25 &agrave 64 ans) <br />
-		<input type="radio" name="type" value="Aînés" > A&Icircn&eacutes (65 ans et plus) <br />
+		<input type="radio" name="type" value="Enfants" required> Enfants (00 &agrave 14 ans) <br />
+		<input type="radio" name="type" value="Adolescents" required>  Adolescents (15 &agrave 24 ans) <br />
+		<input type="radio" name="type" value="Adultes" required> Adultes (25 &agrave 64 ans) <br />
+		<input type="radio" name="type" value="Aînés" required> A&Icircn&eacutes (65 ans et plus) <br />
 
 		<label for="famille">Avez vous une famille ? </label>
-		<input type="radio" name="famille" value="oui"> Oui
-		<input type="radio" name="famille" value="non"> NOn <br />
+		<input type="radio" name="famille" value="oui" required> Oui
+		<input type="radio" name="famille" value="non" required> NOn <br />
 
 		<input type="submit" name="submit" value="s'enregistrer" >
 	</form>

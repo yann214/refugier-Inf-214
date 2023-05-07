@@ -15,6 +15,9 @@
 	<div class="corps" style=" margin-left:30%;">
 		<form method="POST" action="">
 			<h2> creation des taches </h2>
+			<label for="nom">Nom Tache : </label><input type="text" name="nom" required>
+
+			<input type="submit" value="ajouter" name="submit">
 		</form>
 	</div>
 

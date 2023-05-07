@@ -6,7 +6,7 @@
   <a href="medicale.php"class="icon-a"><i class="fa fa-shopping-bag icons"></i> &nbsp;&nbsp;Medical</a>
   <a href="tache.php"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Tâche</a>
   <a href="affecter_tache.php"class="icon-a"><i class="fa fa-user icons"></i> &nbsp;&nbsp;Affecter Tâche</a>
-  <a href="#"class="icon-a"><i class="fa-sharp fa-solid fa-right-from-bracket"></i> &nbsp;&nbsp;Deconnexion</a>
+  <a href="../"class="icon-a"><i class="fa-sharp fa-solid fa-right-from-bracket"></i> &nbsp;&nbsp;Deconnexion</a>
 
 
 </div>

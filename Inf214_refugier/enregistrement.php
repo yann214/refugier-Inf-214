@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"  href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="dashboard/css/design.css" >
+    <title>enregistrement</title>
 </head>
 <body>
 <div class="header">
@@ -21,10 +22,34 @@
         </div>
     </div>
 
-    <div class="corps">
-       <p>un monde fou</p>
-       <p> une autre verification</p>
-       <p>et une troisième</p>
+    <div class="corps" style="padding:150px;background: linear-gradient(to right, rgb(24, 213, 163), rgb(0, 255, 128));">
+  <h2> formulaire d'enregistrement </h2>
+	<form method="POST" action="enregistrement.php">
+		<label for="nom">Nom :</label>
+		<input type="text" name="nom" required><br />
+
+		<label for="prenom">Prenom :</label>
+		<input type="text" name="prenom" required><br />
+
+		<label for="sexe"> sexe :</label>
+		<input type="radio" name="sexe" value="masculin" required> <span>Masculin<span>
+		<input type="radio" name="sexe" value="feminin" required> feminin <br />
+
+        <label for="tel">telephone</label> <input type="tel" name="tel" required/><br />
+        <label for="email" style="margin-right:23px;">E-mail </label> <input type ="email" name="email" id="email" required ><br />
+
+		<label for="type">categorie d'age </label><br />
+		<input type="radio" name="type" value="Enfants" required> Enfants (00 &agrave 14 ans) <br />
+		<input type="radio" name="type" value="Adolescents" required>  Adolescents (15 &agrave 24 ans) <br />
+		<input type="radio" name="type" value="Adultes" required> Adultes (25 &agrave 64 ans) <br />
+		<input type="radio" name="type" value="Aînés" required> A&Icircn&eacutes (65 ans et plus) <br />
+
+		<label for="famille">Avez vous une famille ? </label>
+		<input type="radio" name="famille" value="oui" required> Oui
+		<input type="radio" name="famille" value="non" required> NOn <br />
+
+		<input type="submit" name="submit" value="s'enregistrer" onClick="message()">
+	</form>
     </div>
 
 <div class="footer">
@@ -63,5 +88,11 @@
         <hr />
         <p>copyright 2023</p>
     </div>
+    <script type="text/javascript">
+        function message(){
+           var email = document.getElementById('email').value;
+            alert("vous avez ete bien enregistrer. on vous contactera au "+email+"!!!");
+        }
+    </script>
 </body>
 </html>

@@ -5,7 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css"  href="css/style.css">
-    <title>Document</title>
+    <title>Donner votre don</title>
+    <style type="text/css">
+    .corps .mission{
+    background: linear-gradient(to right, rgb(24, 213, 163), rgb(0, 255, 128));
+    width: 98%;color: #fff;height: 500px;padding: 15px;font-size: 25px;text-align: center;align-items: center;
+}
+.corps .mission p{
+    display: inline-block;
+    width: 74%;}
+    </style>
 </head>
 <body>
 <div class="header">
@@ -21,8 +30,17 @@
         </div>
     </div>
 
-    <div class="corps">
-
+    <div class="corps" style="padding-top:150px;">
+        <div class="mission">
+            <h2>Aidez-nous &agrave soutenir les r&eacutefugi&eacutes</h2>
+            <p>
+                Imaginez que vous deviez fuir votre maison et laisser toute votre vie derri&egravere vous &agrave cause de 
+                la guerre, de la violence ou des pers&eacutecutions. Aujourd'hui, des millions de personnes sont 
+                contraintes de commencer une nouvelle vie en exil. Avec votre soutien, 
+                nous pouvons leur donner de l'espoir et des opportunit&eacutes pour reconstruire leur avenir.
+            </p><br />
+            <span>pour cela nous vous prions de nous <a href="#contact" title="merci déjà" style="color:blue; text-decoration:none;">contacter</a>.</span> 
+        </div>
     </div>
 
 <div class="footer">
@@ -49,7 +67,7 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Contact</h4>
+                    <h4 id="contact">Contact</h4>
                     <ul>
                         <li><a href="tel:+237 650-95-88-21">+237 650-95-88-21</a></li>
                         <li><a href="tel:+237 699-99-01-02">+237 699-99-01-02</a></li>
