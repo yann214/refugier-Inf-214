@@ -1,3 +1,18 @@
+<?php
+	require_once"connect.php";
+	$Nom_section =" ";
+	$sms =' ';
+	if(isset($_POST['submit'])){
+		echo '<span style="margin-left: 30%;">aaa</span>';
+		$Nom_section = $_POST['nom'];
+
+		$sql = "INSERT INTO `logement`(`section`) VALUES ('$Nom_section');";
+		
+		$rst= $connect->query($sql);
+		if($rst==true){
+		$sms ="enregistrement effectuer";}
+	}
+?>
 <!Doctype HTML>
 <html>
 <head>
@@ -13,7 +28,7 @@
 </div>
 
 	<div class="corps" style=" margin-left:30%;">
-		<form method="POST" action="">
+		<form method="POST" action="logement.php">
 			<h2> ajout des logements </h2>
 			<label for="nom">Nom section : </label><input type="text" name="nom" >
 			<input type="submit"  name='submit' value="ajouter" >

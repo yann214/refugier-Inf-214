@@ -1,3 +1,30 @@
+<?php
+	require_once"connect.php";
+	$Nom_tache =" ";
+	$sup='';
+	$sms =' ';
+	if(isset($_POST['submit'])){
+		echo '<span style="margin-left: 30%;">aaa</span>';
+		$Nom_tache = $_POST['nom'];
+		$sup = $_POST['sup'];
+
+		$sql = "INSERT INTO `attribution_tache`(`nom_tache`,`superviseur`) VALUES ('$Nom_tache','$sup');";
+		$rst= $connect->query($sql);
+
+		/*$sql1 ="SELECT id_personne FROM personne where nom='$sup';";
+		$rst1 = $connect->query($sql1);
+		
+		$id_p='';
+		if($dd = $rst->fetch_assoc())
+		{$id_p =$dd['id_personne'];}
+		
+		$sql2 ="INSERT INTO `attribu` (`id_personne`,`dt_attribution`) VALUES ('$id_p','$dt')";
+		$rst2 = $connect->query($sql2);
+		*/
+		if($rst==true){
+		$sms ="enregistrement effectuer";}
+	}
+?>
 <!Doctype HTML>
 <html>
 <head>

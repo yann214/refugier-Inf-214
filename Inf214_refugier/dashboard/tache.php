@@ -1,3 +1,19 @@
+<?php
+	require_once"connect.php";
+	$Nom_tache =" ";
+	$sms =' ';
+	if(isset($_POST['submit'])){
+		echo '<span style="margin-left: 30%;">aaa</span>';
+		$Nom_tache = $_POST['nom'];
+
+		$sql = "INSERT INTO `tache`(`nom_tache`) VALUES ('$Nom_tache');";
+		
+		$rst= $connect->query($sql);
+		if($rst==true){
+		$sms ="enregistrement effectuer";}
+	}
+?>
+
 <!Doctype HTML>
 <html>
 <head>
@@ -13,7 +29,7 @@
 </div>
 
 	<div class="corps" style=" margin-left:30%;">
-		<form method="POST" action="">
+		<form method="POST" action="tache.php">
 			<h2> creation des taches </h2>
 			<label for="nom">Nom Tache : </label><input type="text" name="nom" required>
 
